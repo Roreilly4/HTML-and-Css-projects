@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<button onclick ="My_First_Function()">
+			ClickMe!
+		</button>
+		<p id ="Irish"></p>
+	<script>
+		function My_First_Function() {
+			var String ="Kiss me, I'm Irish!";
+			var result = String.fontcolor("green");
+			document.getElmementById("Irish").innerHTML=
+			result;
+		}
+	</script>
+
+
+
+
+
+	</body>
+</html>
