@@ -1,0 +1,22 @@
+table {
+	border: 2px solid silver;
+} 
+td:hover {
+	background-color: rgb(	224,255,255);
+	color: rgb( 25,25,112);
+}
+
+h1 {
+	background-color: rgb(255, 140, 0);
+	color: rgb(240,255,255);
+}
+
+th {
+	background-color: white;
+	color: rgb(	47,79,79);
+}
+
+td {
+	background-color: rgb( 25,25,112);
+	color: rgb(	224,255,255);
+}

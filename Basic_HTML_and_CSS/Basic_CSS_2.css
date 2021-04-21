@@ -1,0 +1,13 @@
+h1 {text-shadow: 4px 4px gold;
+	color:red;
+	text-align:center;
+}	
+	
+p {
+    background-color :rgb(225, 49, 0);
+	color :rgb(252, 251, 244);
+	font-family :Roboto;
+	font-weight :bold;
+	text-align :center;
+	font-size :30px;
+}
