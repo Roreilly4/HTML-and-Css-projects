@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', Times, serif;
+    font-size: 25px;
+}
+
+#Contact_Us {
+    outline: none;
+    font-weight:400;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid red;
+    margin:2% auto;
+    border-radius: 7px;
+    background: rgb(54, 212, 233);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
+    
+}
+form h1 {
+    font-size: 30px;
+    color: snow;
+    width: 50%;
+    margin: 15px 10px;
+    font-variant: small-caps;
+    text-shadow: 2px 2px grey;
+}
+
+.textarea {
+    margin: 15px 10px;
+    padding: 5px;
+    border: 1px inset snow;
+    border-radius: 3%;
+}
+
+.form-spacer {
+    padding: 10px 10px;
+}
+
+.submit {
+    line-height: 50px;
+    margin: 15px 10px;
+    padding: 5px;
+    border: 1px inset snow;
+    border-radius: 3%;
+}
+
+
+
+
+
