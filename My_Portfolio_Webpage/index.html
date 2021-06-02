@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Ross O'Reilly</title>
+        <link rel="stylesheet" type="text/css" href="/portfoliocss/style.css">
+    </head>
+
+    <!--Body-->
+    <body class="background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">Github</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Adding space between navbar and First heading-->
+        <br>
+        <br>
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Growing_Rose">
+                <source src="./portfolio_media/Rose.mp4" type="video/mp4">
+                <!--Display message if vis=deo fails to run-->
+                your browser deos not support HTML5 video!
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1>Ross O'Reilly</h1>
+            <strong>
+                <p class="center">
+                    <q>Did you hear about the rose that grew 
+                        from a crack in the concrete? <br>
+                        Proving nature's law is wrong it 
+                        learned to walk with out having feet.<br> 
+                        Funny it seems, but by keeping its dreams, 
+                        it learned to breathe fresh air.<br>
+                        Long live the rose that grew from concrete<br>
+                        when no one else ever cared.
+                    </q>
+                    <br>- Tupac Shakur
+                    <br>
+                    <br>My name is Ross O'Reilly.Welcome to my portfolio website. On it, I will tell you about my background and expierience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy what I've learned so far.
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="/portfolio_media/aboutpic.png" alt="Insert my image here and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a web developer who loves to code! As a father of two,
+                    I enjoy time with my family and learning new things.
+                    After the first lockdown I decided to change my career as a 
+                    painter & decorator and try something new. I've always had a 
+                    longing to be able to understand and write code so I began my journey.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Web Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML5 and CSS3 for now.
+                    <br>
+                    <br>I am a front-end web developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--Github section-->
+        <div class="Row" id="Github">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>Github</h1>
+                <p>
+                    You can view my coding projects on my Github profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Roreilly4" target="_blank">Ross O'Reilly Github</a></p> 
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/Roreilly4" target="_blank"><img src="../portfolio_media/githublogo.png" alt="Github Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="/portfolio_media/contact_us.png" alt="contact_image">
+            </div>
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xayaoqjn" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a>
+            </p>
+        </footer>
+    </body>
+</html>
