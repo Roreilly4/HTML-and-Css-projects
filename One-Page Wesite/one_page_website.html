@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- Title and charset-->
+
+<head>
+    <title>Waterford Walls Website by Ross O'Reilly</title>
+    <meta charset="Utf-8">
+    <link rel="stylesheet" href="CSS/one_page_website.css">
+    <script src="JS/one_page_website.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1> Waterford Walls</h1>
+            <p>Welcome to Street Art.</p>
+        </header>
+    </section>
+    <!--Nav area-->
+
+    <div>
+        <div>
+            <ul>
+                <a href="#Home" id="link">
+                    <li>Home</li>
+                </a>
+                <a href="#Gallery">
+                    <li>Gallery</li>
+                </a>
+                <a href="#Video">
+                    <li>Video</li>
+                </a>
+                <a href="#Contact_Us">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!--Photos-->
+    <section>
+        <div id="Gallery">
+            <h1>Gallery</h1>
+            <p> Just a sample of the amazing street art offered throughout the city.</p>
+        </div>
+        <!--Images to open the lightbox-->
+        <!--photo container 1-->
+        <div class="row">
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail1.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--photo container 2-->
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail2.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--photo container 3-->
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail3.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--photo container 4-->
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail4.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--photo container 5-->
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail5.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--photo container 6-->
+            <div>
+                <div class="column">
+                    <img src="./Thumbnails/thumbnail6.png" alt="Walls of Waterford Tiger" height="250" width="200" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                    <div>
+                        <h1>Street Art </h1>
+                        <p>Too cool for Galleries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--The lightbox-->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./Thumbnails/thumbnail1.png" height="500px" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./Thumbnails/thumbnail2.png" height="500px" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./Thumbnails/thumbnail3.png" height="500px" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./Thumbnails/thumbnail4.png" height="500px" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./Thumbnails/thumbnail5.png" height="500px" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./Thumbnails/thumbnail6.png" height="500px" width="100%">
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail1.png" width="75px" height="75px" onclick="currentSlide(1)" alt="Waterford Street Art">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail2.png" width="75px" height="75px" onclick="currentSlide(2)" alt="Waterford Street Art">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail3.png" width="75px" height="75px" onclick="currentSlide(3)" alt="Waterford Street Art">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail4.png" width="75px" height="75px" onclick="currentSlide(4)" alt="Waterford Street Art">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail5.png" width="75px" height="75px" onclick="currentSlide(5)" alt="Waterford Street Art">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./Thumbnails/thumbnail6.png" width="75px" height="75px" onclick="currentSlide(6)" alt="Waterford Street Art">
+                </div>
+
+
+    </section>
+
+
+    <!-- Video-->
+    <section id="Video">
+        <div class="video_1">
+            <h1>Waterford Walls Video 2020</h1>
+            <iframe width="500" height="450" src="https://www.youtube.com/embed/bTqX5OHw058" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+			clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video_2">
+            <h1>Guided art trails
+                <h1>
+                    <iframe width="500" height="450" src="https://www.youtube.com/embed/lf-1oO8prHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+			clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Us-->
+    <section id="Contact_Us">
+        <form>
+            <label for="subject">
+				<h1>For guided tours contact us:</h1>
+			</label>
+            <div class="textbox">
+                <textarea id="subject" name="subject" placeholder="Contact Us.."></textarea>
+            </div>
+            <div class="form-spacer">
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+<!-- My Custum footer-->
+<br>
+<br>
+<footer>
+    Ross O'Reilly &#128516 &copy
+</footer>
+
+</html>
